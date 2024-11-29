@@ -1,8 +1,6 @@
 - id: tea-enforcer
   name: Tea Enforcer
-  entry: python tea_enforcer.py
+  entry: python -m tea_enforcer
   language: python
   types: [python]
   description: Checks for Americanised spellings!
-  additional_dependencies: 
-    - requests
